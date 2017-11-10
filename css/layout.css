@@ -230,6 +230,66 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/* c. Privacy Section
+/* ------------------------------------------------------------------ */
+
+#privacy {
+   background: #2B2B2B;
+   padding-top: 60px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+
+#privacy a, #privacy a:visited  { color: #fff; }
+#privacy a:hover, #privacy a:focus { color: #11ABB0; }
+
+#privacy h2 {
+	font: 26px/34px 'opensans-bold', sans-serif;
+	color: #fff;
+	margin-bottom: 60px;
+	margin-top: 20px
+}
+#privacy h3 {
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'opensans-bold', sans-serif;
+	color: #FFA169;
+	margin-bottom: 12px;
+	font-style: italic;
+}
+#privacy p {
+	line-height: 30px;
+	color: #CCCCCC;
+}
+#privacy .profile-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+}
+#privacy .contact-details { width: 41.66667%; }
+#privacy .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#privacy .main-col {
+	border: thin solid #FFFFFF;
+	padding-right: 5%;
+}
+#privacy .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#privacy .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#privacy .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
