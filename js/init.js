@@ -117,6 +117,19 @@
     		$.magnificPopup.close();
     });
 
+$(document).on('click', '.popup-modal-privacy', function (e) {
+    		e.preventDefault();
+    		$.magnificPopup.close();
+			var target = this.hash,
+	    	$target = $(target);
+
+	    	$('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    	}, 800, 'swing', function () {
+	        window.location.hash = "#privacy";
+	    });
+    });
+
 
 /*----------------------------------------------------*/
 /*	Flexslider
